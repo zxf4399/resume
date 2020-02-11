@@ -1,15 +1,14 @@
 /**
  *
- * Hey. My name's Samuel Reed. I'm CTO of BitMEX.com and frequent
- * open source contributor.
+ * 你好。我叫郑贤锋。目前就职于 杭州三汇数字信息技术有限公司，任前端工程师一职。
  *
- * I build interactive websites.
+ * 我喜欢研究一些前端有趣的交互。
  *
- * How about some live coding?
+ * 要不来一场直播写代码？
  */
 
 /**
- * Let's begin. We start by animating... well, everything.
+ * 那么开始吧，首先让一切都动起来～
  */
 
 * {
@@ -17,10 +16,9 @@
 }
 
 /**
- * That didn't do much. But you'll see.
+ * 这看似没用呀，别急，一会儿你就会看到效果了。
  *
- * Black on white is really boring,
- * so let's do something about it.
+ * 黑白配色太无聊了，我们来做一些变化。
  */
 
 html {
@@ -28,7 +26,7 @@ html {
 }
 
 /***
- * Hold on...
+ * 等等。
  */
 
 pre, a {
@@ -36,11 +34,11 @@ pre, a {
 }
 
 /**
- * That's better. Sorry about your eyes.
+ * 看上去好多了。但是有点刺眼了。
  *
- * Working in this big empty space is tough.
+ * 而且在整个屏幕上写代码有点浪费空间了。
  *
- * I'm going to make a nice area for us to work in.
+ * 我来做一些优化。
  */
 
 pre:not(:empty) {
@@ -59,8 +57,7 @@ pre:not(:empty) {
 }
 
 /**
- * Okay. We're going to start filling up the screen.
- * Let's get ready to do some work.
+ * 接下来我们再把它移动屏幕右侧。
  */
 
 #style-text {
@@ -69,8 +66,9 @@ pre:not(:empty) {
 }
 
 /**
- * This is good, but all the text is white!
- * Let's make it even more readable.
+ * 看上去还不错喔，但是所有的字体颜色都是白色的！
+ *
+ * 那么，我们来把代码变得更加可读吧～
  */
 
 .comment       { color: #857F6B; font-style: italic; }
@@ -81,8 +79,9 @@ pre:not(:empty) {
 .value.px      { color: #F92772; }
 
 /**
- * Now we're getting somewhere.
- * Time to get a little perspective.
+ * 现在我们有了一些进展。
+ * 
+ * 再把它变得更立体一些。
  */
 
 body {
@@ -96,8 +95,9 @@ body {
 }
 
 /**
- * So, let's talk projects. That's why you're here, right?
- * I can't imagine you'd come just to see the pretty colors.
+ * 好吧差不多了，接下来聊聊我吧。
+ *
+ * 我相信你应该不是来只看我炫技的吧？
  */
 
 pre:not(#style-text) {

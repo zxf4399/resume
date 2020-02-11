@@ -1,15 +1,14 @@
 {
-  "name": "strml.net",
+  "name": "resume",
   "version": "0.0.1",
   "description": "",
   "main": "app.js",
   "scripts": {
     "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --open --mode development",
     "watch": "webpack --progress --watch"
   },
-  "author": "Samuel Reed <samuel.trace.reed@gmail.com> (http://strml.net/)",
+  "author": "zxf4399",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.0.0",

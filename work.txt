@@ -1,44 +1,42 @@
-STRML.net
+
+基本资料
 =========
 
-Samuel Reed
-CTO, BitMEX (The Bitcoin Mercantile Exchange)
-Full-Stack / NodeJS / DevOps
+姓名：郑贤锋
+Email：zxf4399@gmail.com
+GitHub：https://github.com/zxf4399
 
-Contact
+个人概况
 -------
 
-* sam at bitmex dot com
-* samuel.trace.reed at gmail dot com
-* STRML on irc.freenode.net
-* @STRML_ on Twitter
+* 掌握Web前端开发基本技能，熟悉W3C标准、HTML、CSS、UI重构、页面布局、响应式布局等，领悟视觉与设计，重视页 面交互与用户体验 
+* 对JavaScript、各类UI组件库、JS类库、模板引擎、MVVM框架、工程化工具等有着较熟练的实践和较深刻的感悟
+* 对Node.js、模块化规范、CSS预处理器、数据可视化、设计模式、性能优化等也有一定的应用与思考
+* 熟练使用ES6语法编程，追求代码高质量可维护性
+* 以React、Webpack、Less、Node.js等为常用技术栈，同时也了解主流的 Vue gulp等技术
+* 熟练使用Git进行版本控制和代码托管、Markdown进行文档编写，了解项目常规开发流程、开发调试技巧、发布部署步 骤，掌握类Unix服务器基本运维能力
 
-Projects
+教育背景
 --------
 
-* www.BitMEX.com
-* www.Securesha.re
-* www.Tixelated.com
-* www.BrightestYoungThings.com
-and of course...
-* www.strml.net
+* 2013.9 - 2017.6，本科：台州学院，电子信息工程。
 
-Open Source
------------
+工作经历
+--------
 
-* Babel
-* React-Grid-Layout
-* React-LocalStorage
-* React-Router-Component
-* React-Resizable
-* React-Draggable
-* OpenBazaar
-* JSXHint
-* BTChip-Signing-Tools
-* TextFit
-* Imgur-to-GFYcat
-* backbone.queryRouter
-* backbone.layoutManager
-* Mongoose-Filter-Denormalize
+* 2018.2 至今：三汇 react组前端负责人
 
+- 引入前后端分离概念，帮助公司从angularjs迁徙到vue，react，webpack等现代化前端应用技术
+- 尝试使用next.js解决客户端渲染页面慢，白屏等问题
+- 部署mockjs平台化具，规定前后端接口规范，减少集成时间
+- 参考外界优秀公司bff概念，编写node中间件，减少前端代码耦合性（数据格式转换，接口合并等）
+- 编写公共组件，公共方法，发布内网npm包，保障相同业务编码一致性
+- 统一相似项目模板，减少技术选型，缩短项目搭建时间（已完成js，ts项目前置react通用模板）
+- 使用jenkins和nginx自动化构建前端项目，解决组内前端部署项目速度慢，时间长，配置乱等琐碎问题
 
+* 2017.2 - 2017.12：医惠 前端开发工程师
+
+- 设计、编写可复用的用户界面组件、前端通用组件
+- 与服务器端开发人员进行应用及系统整合，调试网站获取动态接口数据渲染页面
+- 与测试人员配合，调试网站页面在不同浏览器下的兼容性
+- 跟踪前端技术的发展，掌握最新动态和主流技术

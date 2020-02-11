@@ -3,7 +3,6 @@ import Promise from 'bluebird';
 import Markdown from 'markdown';
 const md = Markdown.markdown.toHTML;
 import workText from 'raw-loader!./work.txt';
-import pgpText from 'raw-loader!./pgp.txt';
 import headerHTML from 'raw-loader!./header.html';
 let styleText = [0, 1, 2, 3].map((i) => require('raw-loader!./styles' + i + '.css').default);
 import preStyles from 'raw-loader!./prestyles.css';
@@ -14,7 +13,7 @@ import getPrefix from './lib/getPrefix';
 // Vars that will help us get er done
 const isDev = window.location.hostname === 'localhost';
 const speed = isDev ? 0 : 16;
-let style, styleEl, workEl, pgpEl, skipAnimationEl, pauseEl;
+let style, styleEl, workEl, skipAnimationEl, pauseEl;
 let animationSkipped = false, done = false, paused = false;
 let browserPrefix;
 
@@ -35,7 +34,6 @@ async function startAnimation() {
     createWorkBox();
     await Promise.delay(1000);
     await writeTo(styleEl, styleText[2], 0, speed, true, 1);
-    await writeTo(pgpEl, pgpText, 0, speed, false, 32);
     await writeTo(styleEl, styleText[3], 0, speed, true, 1);
   }
   // Flow control straight from the ghettos of Milwaukee
@@ -52,7 +50,6 @@ async function startAnimation() {
 async function surprisinglyShortAttentionSpan() {
   if (done) return;
   done = true;
-  pgpEl.innerHTML = pgpText;
   let txt = styleText.join('\n');
 
   // The work-text animations are rough
@@ -143,7 +140,6 @@ function getEls() {
   style = document.getElementById('style-tag');
   styleEl = document.getElementById('style-text');
   workEl = document.getElementById('work-text');
-  pgpEl = document.getElementById('pgp-text');
   skipAnimationEl = document.getElementById('skip-animation');
   pauseEl = document.getElementById('pause-resume');
 }
@@ -174,10 +170,10 @@ function createEventHandlers() {
   pauseEl.addEventListener('click', function(e) {
     e.preventDefault();
     if (paused) {
-      pauseEl.textContent = "Pause ||";
+      pauseEl.textContent = "暂停 ||";
       paused = false;
     } else {
-      pauseEl.textContent = "Resume >>";
+      pauseEl.textContent = "继续 >>";
       paused = true;
     }
   });
