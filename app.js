@@ -66,7 +66,7 @@ async function surprisinglyShortAttentionSpan() {
   let start = Date.now();
   while(Date.now() - 1000 > start) {
     workEl.scrollTop = Infinity;
-    styleEl.scrollTop = pgpEl.scrollTop = Infinity;
+    styleEl.scrollTop = Infinity;
     await Promise.delay(16);
   }
 }
