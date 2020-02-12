@@ -12,6 +12,10 @@ pre:hover {
   display: none;
 }
 
+.value {
+  text-shadow: 0px 15px 1px white;
+}
+
 /**
  * 希望你能喜欢，这个创意是参考国外一个牛人的，
  *
@@ -19,7 +23,3 @@ pre:hover {
  *
  * 如果你觉得我还不错，可以与我联系～
  */
-
-.value {
-  text-shadow: 0px 15px 1px white;
-}
